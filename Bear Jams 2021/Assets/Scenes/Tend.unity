@@ -883,7 +883,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633255886}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
 --- !u!1 &703455877
+=======
+--- !u!1 &747601059
+>>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -891,28 +895,45 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream
   - component: {fileID: 703455878}
   - component: {fileID: 703455880}
   - component: {fileID: 703455879}
   m_Layer: 5
   m_Name: fertilize
+=======
+  - component: {fileID: 747601060}
+  - component: {fileID: 747601062}
+  - component: {fileID: 747601061}
+  m_Layer: 5
+  m_Name: Directions
+>>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
 --- !u!224 &703455878
+=======
+--- !u!224 &747601060
+>>>>>>> Stashed changes
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 703455877}
+=======
+  m_GameObject: {fileID: 747601059}
+>>>>>>> Stashed changes
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1321528348}
+<<<<<<< Updated upstream
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -921,12 +942,26 @@ RectTransform:
   m_SizeDelta: {x: 282, y: 281}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &703455879
+=======
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 227}
+  m_SizeDelta: {x: 767, y: 140}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &747601061
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 703455877}
+=======
+  m_GameObject: {fileID: 747601059}
+>>>>>>> Stashed changes
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -940,7 +975,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< Updated upstream
   m_Sprite: {fileID: 21300000, guid: 7476ab4836bfc4fa59c2c65ace3e8140, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: fb3124d36dd33415f9fa8a4af0f72b9b, type: 3}
+>>>>>>> Stashed changes
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -950,13 +989,21 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+<<<<<<< Updated upstream
 --- !u!222 &703455880
+=======
+--- !u!222 &747601062
+>>>>>>> Stashed changes
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 703455877}
+=======
+  m_GameObject: {fileID: 747601059}
+>>>>>>> Stashed changes
   m_CullTransparentMesh: 1
 --- !u!1 &829870409
 GameObject:
@@ -1015,7 +1062,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< Updated upstream
   m_Sprite: {fileID: 21300000, guid: 709ada5935b6347abb3444d3e36802b0, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: 92afd5da812fc433cacd4b3150be1d30, type: 3}
+>>>>>>> Stashed changes
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1398,11 +1449,15 @@ RectTransform:
   - {fileID: 376704036}
   - {fileID: 1737380905}
   - {fileID: 1789904987}
+<<<<<<< Updated upstream
   - {fileID: 2062650170}
   - {fileID: 703455878}
   - {fileID: 1725498414}
   - {fileID: 468794591}
   - {fileID: 2016134438}
+=======
+  - {fileID: 747601060}
+>>>>>>> Stashed changes
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
