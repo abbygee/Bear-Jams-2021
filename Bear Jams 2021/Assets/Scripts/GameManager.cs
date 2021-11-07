@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance = null;
-    //public GameState gameState = new GameState();
+    public GameState gameState = new GameState();
 
     #region Unity_functions
     private void Awake()
@@ -27,9 +27,17 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("Start"); //very specific names! make sure they match in unity :D
     }
+    public void Enter()
+    {
+        SceneManager.LoadScene("Enter"); 
+    }
     public void TendPlants()
     {
         SceneManager.LoadScene("Tend"); 
+    }
+    public void CleanUp()
+    {
+        SceneManager.LoadScene("Clean"); 
     }
     public void CheckOrder()
     {
@@ -46,6 +54,22 @@ public class GameManager : MonoBehaviour
     public void Credits()
     {
         SceneManager.LoadScene("Credits");
+    }
+    public void Tutorial1()
+    {
+        SceneManager.LoadScene("Tutorial1");
+    }
+    public void Tutorial2()
+    {
+        SceneManager.LoadScene("Tutorial2");
+    }
+    public void Tutorial3()
+    {
+        SceneManager.LoadScene("Tutorial3");
+    }
+    public void Timer()
+    {
+        SceneManager.LoadScene("Timer Start");
     }
     #endregion
 }
