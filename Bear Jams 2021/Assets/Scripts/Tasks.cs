@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Tasks : MonoBehaviour
 {
-    private int taskOne; //1
-    private int taskTwo; //2
-    private int taskThree; //3
+    private GameObject taskOne; //1
+    private GameObject taskTwo; //2
+    private GameObject taskThree; //3
 
     private GameObject expandedList;
     private GameObject cornerList;
@@ -24,14 +25,30 @@ public class Tasks : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        taskList = GameManager.Instance.gameState.CompletedTasks;
-        Debug.Log(taskList);
-        foreach (int task in taskList)
+        if(GameManager.Instance.gameState.CompletedTasks != null)
         {
-            if(task == 2) //clean up
+            if(GameManager.Instance.gameState.CompletedTasks.Contains(1)) //tend
+            {
+                taskOne = expandedList.transform.Find("tend").gameObject;
+                taskOne.transform.Find("crossout1").gameObject.SetActive(true);
+                taskOne.GetComponent<Button>().interactable = false;
+            }
+
+            if(GameManager.Instance.gameState.CompletedTasks.Contains(2)) //clean up
             {
                 //"cross out" clean up
+                taskTwo = expandedList.transform.Find("clean").gameObject;
+                taskTwo.transform.Find("crossout2").gameObject.SetActive(true);
+                taskTwo.GetComponent<Button>().interactable = false;
             }
+
+            if(GameManager.Instance.gameState.CompletedTasks.Contains(3)) //chck order
+            {
+                taskThree = expandedList.transform.Find("check").gameObject;
+                taskThree.transform.Find("crossout3").gameObject.SetActive(true);
+                taskThree.GetComponent<Button>().interactable = false;
+            }
+            
         }
     }
 

@@ -44,9 +44,9 @@ public class CleanUp : MonoBehaviour
 
         if(messes == 0 && isPlaying == false) {
             // go back to task list, play audio
-            GameManager.Instance.gameState.CompletedTasks.Add(2); // 2 - clean up task
             playDone();
-            GameManager.Instance.StartGame();
+            GameManager.Instance.gameState.CompletedTasks.Add(2); // 2 - clean up task
+            // GameManager.Instance.StartGame();
         }
     }
 

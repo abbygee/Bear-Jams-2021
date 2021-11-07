@@ -7,5 +7,5 @@ public class GameState
     public float GlobalTime;
     public string GlobalTimeString;
 
-    public List<int> CompletedTasks;
+    public List<int> CompletedTasks = new List<int>();
 }
