@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial3.unity
     guid: dc29693dfb5144c56889f2fbdec5f606
   - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 58f503b9c1cd94fa7b20154877d2750b
+  - enabled: 1
     path: Assets/Scenes/Timer Start.unity
     guid: c15cbc2f241814b5fa6230cd4ed18f83
   - enabled: 1
