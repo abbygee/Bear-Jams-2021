@@ -71,5 +71,9 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("Timer Start");
     }
+    public void EnterThink()
+    {
+        SceneManager.LoadScene("EnterThink");
+    }
     #endregion
 }

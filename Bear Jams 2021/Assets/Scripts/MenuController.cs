@@ -9,6 +9,11 @@ public class MenuController : MonoBehaviour
         GameManager.Instance.Enter();   
     }
 
+    public void EnterThink()
+    {
+        GameManager.Instance.EnterThink();
+    }
+
     public void BackToMenu()
     {
         GameManager.Instance.Menu();   
