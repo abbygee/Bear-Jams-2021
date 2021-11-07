@@ -1666,3 +1666,53 @@ Received Import Request.
 Start importing Assets/Scenes/End.unity using Guid(bc797bc00bd83475b8622781d11227c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07afe79fa93e81657e5e7460885b6ecd') in 0.048604 seconds
   Import took 0.203172 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005089 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.290 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2082 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 199.5 MB.
+System memory in use after: 199.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2757.
+Total: 5.037230 ms (FindLiveObjects: 0.626532 ms CreateObjectMapping: 0.137708 ms MarkObjects: 4.101152 ms  DeleteObjects: 0.170183 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009610 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.537 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2082 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 199.7 MB.
+System memory in use after: 199.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2761.
+Total: 3.781093 ms (FindLiveObjects: 0.405455 ms CreateObjectMapping: 0.131115 ms MarkObjects: 3.102890 ms  DeleteObjects: 0.140162 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 304.656629 seconds.
+  path: Assets/Scenes/Clean.unity
+  artifactKey: Guid(2a6ee0707a53d414d9a0dc615184c102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Clean.unity using Guid(2a6ee0707a53d414d9a0dc615184c102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00bac7f898bb9c39882d23ff02f2bba8') in 0.022354 seconds
+  Import took 0.028427 seconds .
+

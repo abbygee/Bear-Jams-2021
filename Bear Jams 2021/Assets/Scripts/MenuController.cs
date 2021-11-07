@@ -47,8 +47,13 @@ public class MenuController : MonoBehaviour
     {
         GameManager.Instance.CleanUp();   
     }
-    // public void Message()
-    // {
-    //     GameManager.Instance.MessageScene();   
-    // }
+    public void Tend()
+    {
+        GameManager.Instance.TendPlants();   
+    }
+    public void Check()
+    {
+        GameManager.Instance.CheckOrder();   
+    }
+    
 }
